@@ -1,0 +1,108 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    display: block;
+}
+
+h1 {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+.fotoportada {
+    background: url(/assets/img/portadaiguana.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+
+section.descripcion {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5% 10% 5% 10%;
+}
+
+.texto {
+    margin-left: 50px;
+    color: white;
+    font-weight: 300;
+    width: 40%;
+}
+
+section.caracteristicas {
+    background-color: #1E1A13;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+h2 {
+    color: white;
+    font-size: xx-large;
+    font-weight: 300;
+    margin-top: 10px;
+
+}
+
+
+.iconos {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#fa1 {
+    margin: 0px 100px 0px 130px;
+}
+
+
+.galeria {
+    background-color: black;
+    display:flex;
+   justify-content: center;
+   justify-content: space-evenly;
+    margin: 0px;
+    padding: 5%;
+           
+}
+
+.foto{
+width: 300px;
+height: 200px;
+margin: 0px;
+
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.94;
+    height: 50px;
+
+}
+
+a {
+    color: white;
+}
