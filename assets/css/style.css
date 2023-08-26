@@ -18,7 +18,7 @@ h1 {
 }
 
 .fotoportada {
-    background: url(/assets/img/portadaiguana.png);
+    background: url(assets/img/portadaiguana.png);
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
